@@ -14,7 +14,6 @@ HUClin is a pipeline for:
 - **Preprocessing patterns** for consistency and classifier input  
 - **Running classification experiments** in [Weka](https://www.cs.waikato.ac.nz/ml/weka/)  
 
----
 ## 🔹 Repository Structure
 ```HUClin/
 ├── preprocessing/             # Convert raw datasets into encoded integer format
@@ -40,9 +39,6 @@ HUClin is a pipeline for:
 ├── requirements.txt           # Python dependencies
 ├── LICENSE
 └── README.md
-
-
----
 
 ## 🔹 Installation
 
