@@ -4,8 +4,6 @@ This repository contains the code, scripts, and instructions to reproduce the ex
 
 **HUClin: A High-Utility Framework for Mining Predictive Patterns in Electronic Health Records**
 
----
-
 ## 🔹 Overview
 
 HUClin is a pipeline for:
@@ -16,7 +14,7 @@ HUClin is a pipeline for:
 - **Preprocessing patterns** for consistency and classifier input  
 - **Running classification experiments** in [Weka](https://www.cs.waikato.ac.nz/ml/weka/)  
 
-
+---
 ## 🔹 Repository Structure
 ```HUClin/
 ├── preprocessing/             # Convert raw datasets into encoded integer format
