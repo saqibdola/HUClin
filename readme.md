@@ -4,9 +4,7 @@ This repository contains the code, scripts, and instructions to reproduce the ex
 
 **HUClin: A High-Utility Framework for Mining Predictive Patterns in Electronic Health Records**
 
----
-
-## 🔹 Overview
+## Overview
 
 HUClin is a pipeline for:
 
