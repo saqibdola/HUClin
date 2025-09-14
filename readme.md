@@ -39,3 +39,16 @@ HUClin is a pipeline for:
 │── LICENSE
 │── README.md```
 
+
+
+---
+
+## 🔹 Installation
+
+Clone this repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/HUClin.git
+cd HUClin
+pip install -r requirements.txt
+
