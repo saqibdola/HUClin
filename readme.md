@@ -15,7 +15,8 @@ HUClin is a pipeline for:
 - **Running classification experiments** in [Weka](https://www.cs.waikato.ac.nz/ml/weka/)  
 
 ## 🔹 Repository Structure
-```HUClin/
+```
+HUClin/
 ├── preprocessing/             # Convert raw datasets into encoded integer format
 │   ├── CKD.py
 │   ├── Diabetes.py
@@ -39,6 +40,10 @@ HUClin is a pipeline for:
 ├── requirements.txt           # Python dependencies
 ├── LICENSE
 └── README.md
+
+```
+
+
 
 ## 🔹 Installation
 
