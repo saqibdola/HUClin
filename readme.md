@@ -14,11 +14,27 @@ HUClin is a pipeline for:
 
 ## 🔹 Repository Structure
 
-```HUClin/
+``HUClin/
 │── preprocessing/ # Convert raw datasets into encoded integer format
 │ ├── CKD.py
 │ ├── Diabetes.py
 │ ├── DSPP.py
 │ ├── HeartFailure.py
 │ ├── COVID.py
-│ └── FLChain.py```
+│ └── FLChain.py
+│
+│── conversion/ # Assign utilities & prepare datasets for HUIM/HUSPM
+│ ├── ckdconversion.py
+│ └── ...
+│
+│── pattern_postprocessing/ # Clean & normalize mined patterns
+│ ├── preporcesspatterns.py
+│ └── preporcesspatterns2.py
+│
+│── examples/ # Sample input/output (toy data, not patient records)
+│
+│── docs/ # Paper figures, diagrams
+│
+│── requirements.txt # Python dependencies
+│── LICENSE
+│── README.md```
