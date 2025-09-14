@@ -69,6 +69,7 @@ bash python conversion/ckdconversion.py
 ### 2. Run pattern mining (SPMF GUI)
 
 We used the [SPMF GUI](http://www.philippe-fournier-viger.com/spmf/):
+
 ```
 bash java -jar spmf.jar
 ```
@@ -80,7 +81,8 @@ bash java -jar spmf.jar
 5. Click **Run algorithm** and save results  
 
 *(Optional: For automation, SPMF also supports CLI:)*
-``
+
+```
 bash java -jar spmf.jar run EFIM input.txt output.txt 50%
 ```
 ### 3. Preprocess mined patterns
