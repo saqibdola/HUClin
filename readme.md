@@ -47,7 +47,7 @@ Each dataset has a preprocessing script. Example for CKD:
 ```
 bash python preprocessing/CKD.py 
 ```
-This produces an encoded dataset (e.g., `CKDNo.txt`).   Then assign utilities:
+This produces an encoded dataset (e.g., `CKD.txt`).   Then assign utilities:
 
 ```
 bash python conversion/ckdconversion.py 
