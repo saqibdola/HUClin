@@ -1,3 +1,11 @@
+# HUClin: High-Utility Framework for Mining Predictive Patterns in EHRs
+
+This repository contains the code, scripts, and instructions to reproduce the experiments from the paper:
+
+**HUClin: A High-Utility Framework for Mining Predictive Patterns in Electronic Health Records**
+
+---
+
 ## 🔹 Overview
 
 HUClin is a pipeline for:
@@ -7,3 +15,8 @@ HUClin is a pipeline for:
 - **Mining patterns** with the [SPMF](http://www.philippe-fournier-viger.com/spmf/) software  
 - **Preprocessing patterns** for consistency and classifier input  
 - **Running classification experiments** in [Weka](https://www.cs.waikato.ac.nz/ml/weka/)  
+
+---
+
+## 🔹 Repository Structure
+
