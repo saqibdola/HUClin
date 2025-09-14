@@ -18,11 +18,7 @@ HUClin is a pipeline for:
 
 
 ## 🔹 Repository Structure
-
-
-
-🔹 Repository Structure
-HUClin/
+```HUClin/
 ├── preprocessing/             # Convert raw datasets into encoded integer format
 │   ├── CKD.py
 │   ├── Diabetes.py
@@ -45,15 +41,17 @@ HUClin/
 │
 ├── requirements.txt           # Python dependencies
 ├── LICENSE
-└── README.md
+└── README.md```
 
-🔹 Installation
+## 🔹 Installation
 
 Clone this repository and install dependencies:
 
+```bash
 git clone https://github.com/yourusername/HUClin.git
 cd HUClin
 pip install -r requirements.txt
+
 
 Main Python dependencies
 
