@@ -73,13 +73,18 @@ java -jar spmf.jar
 ```
 java -jar spmf.jar run EFIM input.txt output.txt 50%
 ```
+
 ### 3. Preprocess mined patterns
 
-Clean patterns and normalize lengths:
+Clean and normalize the mined patterns.  
+There are two scripts available:
 
 ```
-python pattern_postprocessing/preporcesspatterns2.py 
+python pattern_postprocessing/preporcesspatterns.py
+python pattern_postprocessing/preporcesspatterns2.py
 ```
+Both scripts prepare the mined patterns for conversion into ARFF format and later classification in Weka.
+
 
 ### 4. Convert to ARFF and run classifiers (Weka GUI)
 
