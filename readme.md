@@ -35,7 +35,7 @@ HUClin/
 Clone this repository and install dependencies:
 
 ```
-bash git clone https://github.com/yourusername/HUClin.git
+git clone https://github.com/yourusername/HUClin.git
 cd HUClin
 pip install -r requirements.txt
 ```
@@ -45,12 +45,12 @@ pip install -r requirements.txt
 Each dataset has a preprocessing script. Example for CKD:
 
 ```
-bash python preprocessing/CKD.py 
+python preprocessing/CKD.py 
 ```
 This produces an encoded dataset (e.g., `CKD.txt`).   Then assign utilities:
 
 ```
-bash python conversion/ckdconversion.py 
+python conversion/ckdconversion.py 
 ```
 
 ### 2. Run pattern mining (SPMF GUI)
@@ -58,7 +58,7 @@ bash python conversion/ckdconversion.py
 We used the [SPMF GUI](http://www.philippe-fournier-viger.com/spmf/):
 
 ```
-bash java -jar spmf.jar
+java -jar spmf.jar
 ```
 
 1. Select algorithm: **EFIM**, **USPAN**, **HGB**, **HUSRM**, or **FCHM**  
@@ -70,14 +70,14 @@ bash java -jar spmf.jar
 *(Optional: For automation, SPMF also supports CLI:)*
 
 ```
-bash java -jar spmf.jar run EFIM input.txt output.txt 50%
+java -jar spmf.jar run EFIM input.txt output.txt 50%
 ```
 ### 3. Preprocess mined patterns
 
 Clean patterns and normalize lengths:
 
 ```
-bash python pattern_postprocessing/preporcesspatterns2.py 
+python pattern_postprocessing/preporcesspatterns2.py 
 ```
 
 ### 4. Convert to ARFF and run classifiers (Weka GUI)
