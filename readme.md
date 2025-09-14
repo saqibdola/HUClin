@@ -39,7 +39,7 @@ HUClin is a pipeline for:
 │
 ├── requirements.txt           # Python dependencies
 ├── LICENSE
-└── README.md```
+└── README.md
 
 ---
 
@@ -51,6 +51,8 @@ Clone this repository and install dependencies:
 git clone https://github.com/yourusername/HUClin.git
 cd HUClin
 pip install -r requirements.txt```
+
+
 
 
 Main Python dependencies
