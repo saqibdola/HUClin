@@ -109,9 +109,10 @@ The datasets used are **publicly available**:
 - Diabetes Dataset: [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)  
 - FLChain Dataset: [Figshare](https://figshare.com/articles/dataset/CK4Gen_High_Utility_Synthetic_Survival_Datasets/27611388)
 
-## Requirements
-pandas
-numpy
-scikit-learn
-shap
-openpyxl
+##  Dependencies
+
+- pandas  
+- numpy  
+- scikit-learn  
+- shap  
+- openpyxl  
