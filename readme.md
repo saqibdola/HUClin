@@ -47,11 +47,12 @@ Each dataset has a preprocessing script. Example for CKD:
 ```
 python preprocessing/CKD.py 
 ```
-This produces an encoded dataset (e.g., `CKD.txt`).   Then assign utilities:
+This produces an encoded dataset (e.g., `CKDNo.txt`).   Then assign utilities:
 
 ```
 python conversion/ckdconversion.py 
 ```
+This produces utility-formatted datasets for HUIM/HUSPM, e.g.: CKDNoHUIM.txt/CKDNoHUIMUSPAN.txt)
 
 ### 2. Run pattern mining (SPMF GUI)
 
