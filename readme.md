@@ -113,5 +113,5 @@ The datasets used are **publicly available**:
 pandas
 numpy
 scikit-learn
-SHAP
-opnpyxl
+shap
+openpyxl
