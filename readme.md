@@ -14,7 +14,7 @@ HUClin is a pipeline for:
 
 ## 🔹 Repository Structure
 
-``HUClin/
+```HUClin/
 │── preprocessing/ # Convert raw datasets into encoded integer format
 │ ├── CKD.py
 │ ├── Diabetes.py
