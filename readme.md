@@ -112,8 +112,9 @@ The datasets used are **publicly available**:
 ## Requirements
 pandas
 numpy
+
 scikit-learn
-shap
+SHAP
 openpyxl
 
 
