@@ -111,4 +111,17 @@ We used the [Weka GUI](https://www.cs.waikato.ac.nz/ml/weka/):
 4. Select evaluation: **5-fold CV**, **10-fold CV**, or **80:20 split**  
 5. Click **Start**
 
+## 🔹 Datasets
+
+The datasets used are **publicly available**:
+
+- Chronic Kidney Disease: [Figshare](https://figshare.com/articles/dataset/6711155)  
+- Disease Symptoms and Patient Profile: [Kaggle](https://www.kaggle.com/datasets/uom190346a/disease-symptoms-and-patient-profile-dataset)  
+- COVID-19 Surveillance: [CDC](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4)  
+- Heart Failure Prediction: [Kaggle](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)  
+- Diabetes Dataset: [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)  
+- FLChain Dataset: [Figshare](https://figshare.com/articles/dataset/CK4Gen_High_Utility_Synthetic_Survival_Datasets/27611388)  
+
+
+
 
